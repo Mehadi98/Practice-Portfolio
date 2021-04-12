@@ -1,0 +1,157 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 42px;
+}
+
+/* profile section start  */
+
+.name-highlight{
+    color: orange;
+}
+.profile-about,.profile-pic{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    float: left;
+    margin-top: 50px;
+}
+.profile-about{
+    margin-top: 150px;
+}
+.profile-pic img{
+    width: 100%;
+    
+}
+
+.profile-about h3{
+    margin: 10px 0px 10px 0px;
+}
+
+
+.profile{
+    height: 500px;
+    background-image: url("../image/top-banner.png");
+    background-repeat: no-repeat;
+}
+.profile a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient( 45deg , lightSalmon,tomato);
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.profile p{
+    color: dimgrey;
+    margin-bottom: 20px;
+}
+
+/* profile section end  */
+
+
+
+/* about section start  */
+
+.about{
+    background-image: url("../image/dream-bg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+}
+
+
+.about-pic,.about-me{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    float: left;
+
+}
+.about-pic img{
+    width: 100%;
+    
+}
+.about-me{
+    margin-top: 150px;
+}
+.about-me h2{
+    margin-bottom: 10px;
+}
+
+.about-me h3{
+    margin-bottom: 10px;
+}
+
+.about-me p{
+    color: dimgrey;
+    margin-bottom: 20px;
+}
+.about-me  a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient( 45deg , lightSalmon,tomato);
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+/* about section end  */
+
+/* experiance section end  */
+
+.experiance{
+    clear: both;
+    background-image: url("../image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 375px;
+    margin-bottom: 70px;
+}
+
+.experiance .ex-1 , .experiance .ex-2{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    height: 250px;
+    
+    background-color: white;
+}
+.experiance .ex-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+
+}
+.experiance .ex-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: slategray;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    padding-top: 15px;
+}
